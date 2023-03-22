@@ -1,0 +1,34 @@
+{
+  "name": "scripting-language",
+  "displayName": "Scripting Language",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "scripting-language",
+        "aliases": [
+          "scripting-language"
+        ],
+        "extensions": [
+          ".sl"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "scripting-language",
+        "scopeName": "main.sl",
+        "path": "./syntaxes/scripting-language.tmLanguage.json"
+      }
+    ]
+  },
+  "scripts": {}
+}
