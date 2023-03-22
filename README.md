@@ -1,6 +1,6 @@
-# Mithril README
+# Scripting Language README
 
-This is the README for your extension "Mithril". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "Scripting Language". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
