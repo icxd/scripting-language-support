@@ -58,7 +58,7 @@
 				"match": "\\b(func|struct|enum|type|end|external|annotation)\\b"
 			}, {
 				"name": "keyword.control.scripting-language",
-				"match": "\\b(return|if|else|while)\\b"
+				"match": "\\b(return|if|else|while|break|continue)\\b"
 			}, {
 				"name": "keyword.operator.scripting-language",
 				"match": "\\b(var|import|as|sizeof|new)\\b"
